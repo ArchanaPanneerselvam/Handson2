@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img1.png" type="image/x-icon"> 
+    <title>Handson Two</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="./submit.html" method="get">
+        <label for="name">Name </label>
+        <input type="text" placeholder="name" id="name" name="user name"autocomplete="true" required><br><br>
+        <label for="email">Email Address </label>
+        <input type="email" placeholder="email"  id="email" name="email" autocomplete="true" required><br><br>
+        <label for="phone nember">Phone Number</label> 
+  <input type="number" placeholder="phone number" id="phone number" name="phone number" maxlength="10" pattern="[0-9]{10}" required><br><br>
+        <label for="password">Password </label>
+        <input type="password" placeholder="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
+        <label for="language">Language</label><br><br>
+        <input type="radio" id="react" name="language" value="React">
+        <label for="react">React</label><br>
+  <input type="radio" id="angular" name="language" value="Angular">
+  <label for="angular">Angular</label><br>
+  <input type="radio" id="vue" name="language" value="Vue">
+  <label for="vue">Vue</label><br><br>
+  <label for="course">Course</label><br><br>
+  <input type="checkbox" id="mern" value="mern"><label for="mern">MERN</label><br>
+  <input type="checkbox" id="mean" value="mean"><label for="mean">MEAN</label><br>
+  <input type="checkbox" id="mevn" value="mevn"><label for="mevn">MEVN</label><br><br>
+  <label for="drop">Field</label>
+  <select name="field" id="drop" required>
+    <option value="">Select Field </option>
+  <option value="front end developer">FrontEnd Developer</option>
+  <option value="back end developer">BackEnd Developer</option>
+  <option value="full stack developer">Full Stack Developer</option>
+  </select><br><br>
+  <textarea name="comment" form="usrform" required></textarea><br><br>
+  
+  <input type="submit">
+    </form>
+    <h1>TABLES</h1>
+    <a href="./table.html">Click Here</a>
+</body>
+</html>
